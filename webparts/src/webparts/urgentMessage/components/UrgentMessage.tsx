@@ -20,10 +20,7 @@ const UrgentMessage: FunctionComponent<IUrgentMessageProps> = (props) => {
 
     console.log('About to fetch data');
     fetchData();
-
-
-
-
+ 
   }, []);
 
   const fetchData = async () => {
@@ -43,7 +40,7 @@ const UrgentMessage: FunctionComponent<IUrgentMessageProps> = (props) => {
       "Title": props.currentUser
     })
 
-    setShowMessage(false);
+    setShowMessage(false); 
 
   }
 
@@ -61,7 +58,7 @@ const UrgentMessage: FunctionComponent<IUrgentMessageProps> = (props) => {
     </div>
   );
 }
-
+ 
 export default UrgentMessage;
 
 
